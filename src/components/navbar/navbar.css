@@ -1,0 +1,193 @@
+body {
+  background-color: white;
+}
+
+.navbar{
+     /* height: calc(100vh - 50px); */ 
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    backdrop-filter: blur(100px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    top:0%;
+    z-index: 999;
+}
+
+.button-icon > i{
+  cursor: pointer;
+  position: fixed;
+  top: 30%;
+}
+.i1{
+  margin-right: 35%;
+}
+.i2{
+  margin-right: 10%;
+}
+
+
+
+
+.start{
+  background: none;
+  display:flex;
+  align-items: center;
+  margin-left: 5vw;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.start > h3{
+  
+  background: none;
+    color: blue;
+}
+span {
+  background: none;
+    color:black;
+}
+
+.middle{
+  
+  background: none;
+  margin-left: 4vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-middle {
+  
+  background: none;
+  display: flex;
+  margin-top: 1.5vh;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.header-middle-icon {
+  display: flex;
+  align-items: center;
+  background: none;
+  margin-left: 2vw;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header-middle > button{
+  margin-left: 10vw;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+.icon:hover {
+  color: blue;
+}
+
+.mid{
+  display: none;
+}
+
+.end{
+  display: none;
+}
+
+
+
+@media screen  and  (max-width: 1350px) {
+  
+  .middle{
+    display: none;
+  }
+
+  .navbar{
+    display: flex;
+  }
+
+  .end{
+    display: flex;
+    justify-content: center;
+    float: right;
+    position: absolute;
+    right: 2%;
+    top:30%;
+    align-items: center;
+  }
+  .button-icon{
+    margin-right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 20px;
+    background-color: white;  
+  }
+
+  .mid{
+    background: none;
+    display: block;
+    position: absolute;
+    top: 0vh;
+    width: 30%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.15);
+    position: fixed;
+    backdrop-filter: blur(50px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    transition: all ease-in-out 5s;
+  }
+
+  .mid .start{
+    margin-top: 3vh;
+  }
+
+  .small-mid{
+    
+    background: none;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } 
+  .header-mid{
+    
+    background: none;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-mid-icon{
+    
+    background: none;
+    margin-top: 5vh;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .header-mid-icon :hover{
+    color: blue;
+  }
+  
+  
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+    .mid{
+      width: 50%;
+    }  
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .mid{
+      width: 60%;
+    }  
+}
+

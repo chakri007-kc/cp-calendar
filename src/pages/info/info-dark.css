@@ -1,0 +1,45 @@
+.atcoder-1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+   grid-template-columns: repeat(auto-fit,minmax(40vh,1fr));
+    grid-row-gap: 10vh;
+    grid-column-gap: 10vh;
+    margin: 20vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+}
+
+.loading-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin-top: 30vh;
+}
+
+.loading-1 > img {
+    width: 150px;
+}
+
+
+.heading-1{
+  margin-top: 15vh;
+  margin-left:10%;
+  font-family: 'Montserrat', sans-serif;
+  color: #e4f0fb;
+}
+.heading-size-1{
+    margin-top: -15vh;
+}
+
+.heading2-1{
+  margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #e4f0fb;
+}

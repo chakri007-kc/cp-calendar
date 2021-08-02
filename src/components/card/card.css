@@ -1,0 +1,103 @@
+.card {
+  background: #eae4e9;
+  border-radius: 1vh;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  height: 105%;
+  backdrop-filter: blur(50px);
+}
+
+.card:hover {
+  box-shadow: 1px 1px 5px black;
+  transition: all ease 0.3s;
+}
+
+h4,
+h3,
+a {
+  background: none;
+  text-decoration: none;
+}
+
+.sitename {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Assistant", sans-serif;
+  height: 30px;
+  background-image: linear-gradient(to right bottom, #6a00f6, #8900f2);
+  border-radius: 1vh 1vh 0vh 0vh;
+}
+
+.sitename > .live {
+  width: 100%;
+  display: flex;
+  color: #eae4e9;
+  font-weight: bold;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+
+.sitename > h4 {
+  margin-left: 5%;
+}
+
+.contestname {
+  background: none;
+  padding-left: 5%;
+  padding-right: 10%;
+  margin-top: 2vh;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+}
+
+.starttime {
+  background: none;
+  padding-left: 5%;
+  padding-right: 10%;
+  display: flex;
+  margin-top: 3vh;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+}
+
+.startcard-2 {
+  margin-left: 3%;
+}
+
+.endtime {
+  background: none;
+  padding-left: 5%;
+  padding-right: 10%;
+  display: flex;
+  margin-top: 2vh;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+}
+
+.endcard-2 {
+  margin-left: 2%;
+}
+
+.regbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 60%;
+  margin-top: 10vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border: none;
+  color: white;
+  background-image: linear-gradient(to right bottom, #6a00f6, #8900f2);
+  font-family: "Manrope", sans-serif;
+  font-weight: 1000;
+  font-size: 85%;
+  border-radius: 0.5vh;
+}
+
+.regbutton:hover {
+  box-shadow: 2px 2px 10px #8900f2;
+}
